@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Learn">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt1"
+            android:textSize="30dp"
+            android:text="What is Number System?"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt2"
+            android:layout_below="@+id/txt1"
+            android:textSize="20dp"
+            android:text="A number system is defined as a system of writing to express numbers. It is the mathematical notation for representing numbers of a given set by using digits or other sysmbols in a consistent manner. It provides a unique representation of every number and represents the arithmetic and algebraic structure of the figures. It also allows us to operate arithmetic operations like addition, subtraction and division."
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt3"
+            android:layout_below="@+id/txt2"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Types of Number System:"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt4"
+            android:layout_below="@+id/txt3"
+            android:textSize="20dp"
+            android:text="There are various types of number system in mathematics. The four most common number system types are:"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt5"
+            android:layout_below="@+id/txt4"
+            android:textSize="20dp"
+            android:text="1. Decimal number system(Base-10)
+                2. Binary number system(Base-2)
+                    3. Octal number system(Base-8)
+                        4. Hexadecimal number system(Base-16)
+                         "
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt5"
+            android:text="Method to convert the number from base-10 form to base-2 form:
+                                                                        26 = 2*13+0
+                                                                                    13 = 2*6+1
+                                                                                               6 = 2*3+0
+                                                                                                          3 = 2*1+1
+                                                                                                                      1 = 2*0+1
+
+                                                                                                                                    Result: 11010
+                                                                                                                                                       Answer: 26(base-10)=11010(base-2)"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt7"
+            android:text="Method to convert the number from base-10 form to base-8 form:
+                                                                        62 = 8*7+6
+                                                                                    7 = 8*0+7
+                                                                                               Result: 76
+                                                                                                                Answer: 62(base-10)=76(base-8)"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txt9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt8"
+            android:text="Method to convert the number from base-10 form to base-16 form:
+                                                                        26 = 16*1+10(A=10 in Hexadecimal)
+                                                                                                                    1 = 16*0+1
+                                                                                                                                    Result: 1A
+                                                                                                                                                    Answer: 26(base-10)=1A(base-16)"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txt10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt9"
+            android:text="Method to convert the number from base-2 form to base-10 form:
+                                                                        110 = 1*2*2+1*2+0*1
+                                                                                                                     = 4+2+0
+                                                                                                                                    Result: 6
+                                                                                                                                                    Answer: 110(base-2)=6(base-10)"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt10"
+            android:text="Method to convert the number from base-8 form to base-10 form:
+                                                                        25 = 2*8+5*1
+                                                                                                                     = 16+5
+                                                                                                                                    Result: 21
+                                                                                                                                                    Answer: 25(base-8)=21(base-10)"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txt12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt11"
+            android:text="Method to convert the number from base-16 form to base-10 form:
+                                                                        27 = 2*16+7*1
+                                                                                                                     = 32+7
+                                                                                                                                    Result: 39
+                                                                                                                                                    Answer: 27(base-16)=39(base-10)"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txt13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt12"
+            android:text="NOTE: The decimal number system is used as medium for converting the number in binary form to octal and hexadecimal form. Similarly for converting the number in octal form to binary form and hexadecimal form first the number is converted in decimal form. Similarly, to convert the number in hexadecimal form to binary form and octal form the decimal number system is used medium."
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:text="Back"
+            android:onClick="back"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
